@@ -1,0 +1,41 @@
+.error {
+	color: red;
+}
+
+body {
+	background: #eaedff;
+}
+
+#container-skill {
+	background: #f0f0f0;
+	display: flex;
+	flex-wrap: wrap;
+	/* Cho phép các .skill xuống dòng nếu không đủ chiều rộng */
+	justify-content: left; /* Các .skill cách nhau 5px */
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.skill {
+	display: inline-block; /* Đảm bảo rộng bằng với nội dung bên trong */
+	margin: 5px 2.5px; /* Để tạo khoảng cách ngang 5px */
+	padding: 5px;
+	background: white;
+	border-radius: 5px;
+}
+
+.delButtuon {
+	/* Thay 'icon.png' bằng đường dẫn đến biểu tượng của bạn */
+	background-position: right center;
+	/* Đặt vị trí của biểu tượng ở phía bên phải và giữa nút */
+	background-repeat: no-repeat; /* Ngăn chặn lặp lại hình ảnh nếu cần */
+	/* Đảm bảo khoảng cách đủ lớn để hiển thị biểu tượng một cách đẹp */
+	/* Các thuộc tính khác để tùy chỉnh giao diện của nút */
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+	color: #333;
+	font-size: 16px;
+	cursor: pointer;
+	margin-left: 5px;
+}

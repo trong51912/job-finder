@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="persistence-data">
+        <class>com.jobfinder.entity.RoleEntity</class>
+        <class>com.jobfinder.entity.UserEntity</class>
+        <class>com.jobfinder.entity.EmployerEntity</class>
+        <class>com.jobfinder.entity.ApplicantEntity</class>
+        <class>com.jobfinder.entity.JobEntity</class>
+        <class>com.jobfinder.entity.CategoryEntity</class>
+        <class>com.jobfinder.entity.ServiceEntity</class>
+        <class>com.jobfinder.entity.PositionEntity</class>
+        <class>com.jobfinder.entity.SkillEntity</class>
+    </persistence-unit>
+</persistence>
+
